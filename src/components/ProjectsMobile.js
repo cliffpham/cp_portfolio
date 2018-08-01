@@ -17,11 +17,11 @@ export default class ProjectsMobile extends React.Component {
         </textbody>
         </div>
 
-        <div style={{marginLeft: '33.3%', marginRight: '33.3%', paddingTop: 10}}>
+        <div style={{marginLeft: '33.3%', marginRight: '33.3%', paddingTop: '2%'}}>
         <a href="https://github.com/cliffpham/meishi-mvp">
         <img 
         src={require('../images/github.png')}
-        style={{width:40, height: 40, paddingBottom: 10}}
+        style={{width:40, height: 40, paddingBottom: '3%'}}
         alt="github"
         />
         </a>
@@ -29,7 +29,7 @@ export default class ProjectsMobile extends React.Component {
         <a href="https://www.youtube.com/watch?v=bNAFRY-tw0E&t=178s">
         <img 
         src={require('../images/play.png')}
-        style={{width:60, height: 60, paddingLeft: 15}}
+        style={{width:50, height: 50, paddingLeft: '5%'}}
         alt="github"
         />
         </a>
@@ -106,13 +106,13 @@ const styles = {
     },
     projects2: {
       width: '100%',
-      height: '33.3%',
+      height: '32.3%',
       backgroundColor: '#BF8FCC',
 
     },
     projects3: {
         width: '100%',
-        height: '33.3%',
+        height: '32.3%',
         backgroundColor: '#FFAE42',
   
       },

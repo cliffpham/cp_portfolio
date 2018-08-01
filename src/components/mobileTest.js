@@ -63,7 +63,7 @@ const styles = {
   },
   info: {
     backgroundColor: '#FF4E20', 
-    width: 100, 
+    width: "20%", 
     flexDirection:"column"
 
   },
@@ -78,11 +78,11 @@ const styles = {
 
   },
   icons: {
-    width:75, 
-    height: 75, 
-    marginTop: 75, 
-    marginLeft: 5,
-    marginRight: 5
+    width:"70%", 
+    height: "$70%", 
+    marginTop: "50%", 
+    marginLeft: "1%",
+    marginRight: "1%"
   },
 
 }
