@@ -12,7 +12,7 @@ export default class ProjectsMobile extends React.Component {
         <h1 style={{color: 'white', fontFamily: 'Overpass Mono, monospace',fontSize: 30, letterSpacing:'-3px', textAlign: 'center', paddingTop: 10, paddingBottom: 5, paddingLeft: 5, margin: 0}}> MEISHI </h1>
       
         <div style={{paddingLeft: 10}}>
-        <textbody style={{color: 'white', fontFamily: 'Avenir', fontSize: 14, textAlign: 'left'}}> 
+        <textbody style={{color: 'white', fontFamily: 'Avenir', fontSize: 14, paddingRight: 5}}> 
         A mobile business card app built on React-Native, Firebase, and Expo. Users are able to create and share their digital business cards using thier phones as a QR code scanner through this app
         </textbody>
         </div>
@@ -100,7 +100,7 @@ const styles = {
     },
     projects: {
       width: '100%',
-      height: '33.3%',
+      height: '31.3%',
       backgroundColor: '#4BA9A1',
 
     },

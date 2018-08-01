@@ -17,7 +17,7 @@ class ProfileMobile extends Component {
           bgImage={profile}
           strength={-105}>
           
-          <div style={{height: 575}}>
+          <div style={{height: 570}}>
             <div>
             <h2>Hi there, I'm Cliff and I am a developer</h2>
             </div>
