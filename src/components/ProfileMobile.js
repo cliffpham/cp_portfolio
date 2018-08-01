@@ -29,7 +29,7 @@ class ProfileMobile extends Component {
         style={{height: 50, transform: 'rotate(90deg)'}}
         />
         <Parallax>
-          <div style={{height: 625}}>
+          <div style={{height: 725}}>
           <ProjectsMobile/>
           </div>
         </Parallax>

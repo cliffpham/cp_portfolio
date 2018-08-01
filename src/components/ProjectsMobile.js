@@ -17,7 +17,7 @@ export default class ProjectsMobile extends React.Component {
         </textbody>
         </div>
 
-        <div style={{marginLeft: '33.3%', marginRight: '33.3%', paddingTop: 20}}>
+        <div style={{marginLeft: '33.3%', marginRight: '33.3%', paddingTop: 10}}>
         <a href="https://github.com/cliffpham/meishi-mvp">
         <img 
         src={require('../images/github.png')}
