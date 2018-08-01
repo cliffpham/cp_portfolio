@@ -112,7 +112,7 @@ const styles = {
     },
     projects3: {
         width: '100%',
-        height: '30.3%',
+        height: '33.3%',
         backgroundColor: '#FFAE42',
   
       },
