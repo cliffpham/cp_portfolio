@@ -12,7 +12,7 @@ class Projects3 extends Component {
   render() {
 
     return (
-    <div style={{backgroundColor: '#FFAE42', height: 700, width: 711.09, position: "absolute", top: "5%", left: "21%"}}>
+      <div style={{backgroundColor: '#FFAE42', height: 700, width: 711.09, position: "absolute", top: "5%", left: "21%"}}>
     
       <div style={{backgroundColor: '#FFAE42', display: 'flex', flexDirection: "row", width: 700}}>
 
@@ -20,33 +20,51 @@ class Projects3 extends Component {
 
           <h1 style={{color: 'white', fontFamily: 'Overpass Mono, monospace',fontSize: 50, letterSpacing:'-3px', textAlign: 'left', margin: 0}}> GIVE A DOG A BONE </h1>
       
-          <textbody style={{color: 'white', fontFamily: 'Avenir', fontSize: 18, textAlign: 'left'}}> 
-           A web application to help rescue dogs find loving homes using a similar UI as dating apps, such as Tinder. The app was built using HTML CSS JQuery Javascript Firebase AJAX Bootstrap.
+          <textbody style={{color: 'white', fontFamily: 'Avenir', fontSize: 18, textAlign: 'left', marginBottom: 0}}> 
+          A web application to help rescue dogs find loving homes using a similar UI as dating apps, such as Tinder.
           </textbody>
+          
+          <div style={{display: 'flex', flexDirection: 'row'}}>
+
+          <h5 style={built}> jQuery </h5>
+          <h5 style={built}> HTML </h5>
+          <h5 style={built}> Bootstrap </h5>
+          <h5 style={built}> Petfinder API </h5>
+          <h5 style={built}> Google Maps API </h5>
+          <h5 style={built}> Firebase </h5>
+      
+          </div>
+
+      
 
         </div>
 
     </div>
 
-    <div style={{marginTop: 10, objectFit: 'cover'}}>
+    <div style={{objectFit: 'cover', marginTop: 40}}>
     <video style={VideoStyle} loop autoPlay muted>
     <source src={this.state.videoURL} type="video/mp4" />
     Your browser does not support the video tag.
     </video>
 
-    <div>
+
+
+    </div>
+
+    <div style={{display: 'flex', flexDirection: 'row', paddingLeft: 310, paddingRight: 310}}>
+
     
-    <a href="https://github.com/balbano80/Doggie-Tinder">
+    <a href="https://github.com/balbano80/Doggie-Tinder" target="_blank" rel="noopener noreferrer"  >
     <img 
     src={require('../images/github.png')}
-    style={{width:75, height: 75, paddingTop: 13, paddingLeft: 310}}
+    style={{width:65, height: 65, paddingTop: 2, paddingRight: 25}}
     alt="github"
     />
     </a>
 
     </div>
 
-    </div>
+    
 
     
 
@@ -66,3 +84,21 @@ const VideoStyle = {
     height: 400,
     objectFit: 'cover'
 }
+
+const built = {
+  border: 2, 
+  padding: 5,
+  borderStyle: 'solid',  
+  borderColor: "white", 
+  color: 'white', 
+  marginRight: 10
+
+}
+
+// #FFAE42
+
+// https://res.cloudinary.com/djenpulgm/video/upload/v1532493118/DoggyDemo.mp4
+
+// https://github.com/balbano80/Doggie-Tinder
+
+// A web application to help rescue dogs find loving homes using a similar UI as dating apps, such as Tinder. The app was built using HTML CSS JQuery Javascript Firebase AJAX Bootstrap.

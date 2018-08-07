@@ -3,8 +3,8 @@ import MediaQuery from 'react-responsive';
 import PropTypes from 'prop-types';
 
 const breakpoints = {
-  desktop: '(min-width: 768px)',
-  phone: '(max-width: 767px)',
+  desktop: '(min-width: 1024px)',
+  phone: '(max-width: 1023px)',
 };
 
 

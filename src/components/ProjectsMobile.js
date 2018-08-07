@@ -18,7 +18,7 @@ export default class ProjectsMobile extends React.Component {
         </div>
 
         <div style={{marginLeft: '33.3%', marginRight: '33.3%', paddingTop: '2%'}}>
-        <a href="https://github.com/cliffpham/meishi-mvp">
+        <a href="https://github.com/cliffpham/meishi-mvp" target="_blank" rel="noopener noreferrer">
         <img 
         src={require('../images/github.png')}
         style={{width:40, height: 40, paddingBottom: '3%'}}
@@ -26,7 +26,7 @@ export default class ProjectsMobile extends React.Component {
         />
         </a>
   
-        <a href="https://www.youtube.com/watch?v=bNAFRY-tw0E&t=178s">
+        <a href="https://www.youtube.com/watch?v=bNAFRY-tw0E&t=178s" target="_blank" rel="noopener noreferrer">
         <img 
         src={require('../images/play.png')}
         style={{width:50, height: 50, paddingLeft: '5%'}}
@@ -48,7 +48,7 @@ export default class ProjectsMobile extends React.Component {
         </div>
 
         <div style={{marginLeft: '33.3%', marginRight: '33.3%'}}>
-        <a href="https://github.com/tomkim825/Project2">
+        <a href="https://github.com/tomkim825/Project2" target="_blank" rel="noopener noreferrer">
         <img 
         src={require('../images/github.png')}
         style={{width:40, height: 40, paddingTop: 20, paddingBottom: 10}}
@@ -69,7 +69,7 @@ export default class ProjectsMobile extends React.Component {
         </div>
 
         <div style={{marginLeft: '33.3%', marginRight: '33.3%'}}>
-        <a href="https://github.com/balbano80/Doggie-Tinder">
+        <a href="https://github.com/balbano80/Doggie-Tinder" target="_blank" rel="noopener noreferrer">
         <img 
         src={require('../images/github.png')}
         style={{width:40, height: 40, paddingTop: 20, paddingBottom: 10}}

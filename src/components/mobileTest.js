@@ -11,7 +11,7 @@ class Mobile extends Component {
       <div style={styles.info}>
 
 
-      <a href="https://www.linkedin.com/in/cliff-pham-63467473">
+      <a href="https://www.linkedin.com/in/cliff-pham-63467473" target="_blank" rel="noopener noreferrer">
       <img 
       src={require('../images/linkedin.png')}
       style={styles.icons}
@@ -19,7 +19,7 @@ class Mobile extends Component {
       />
       </a>
 
-      <a href="https://github.com/cliffpham">
+      <a href="https://github.com/cliffpham" target="_blank" rel="noopener noreferrer">
       <img 
       src={require('../images/github.png')}
       style={styles.icons}

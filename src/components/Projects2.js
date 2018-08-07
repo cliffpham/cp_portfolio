@@ -20,34 +20,57 @@ class Projects2 extends Component {
 
           <h1 style={{color: 'white', fontFamily: 'Overpass Mono, monospace',fontSize: 50, letterSpacing:'-3px', textAlign: 'left', margin: 0}}> ANOTOKI </h1>
       
-          <textbody style={{color: 'white', fontFamily: 'Avenir', fontSize: 18, textAlign: 'left'}}> 
-          A CRUD timeline web application. The project was built using NodeJS, Express, Sequelize and MySQL. Users can search, upload and tag images to the site which is then displayed similarly to a museum exhibit. Check out the     
-          <a style={{  color: "yellow",textDecoration: 'none'}}href="https://project-2-crud-app.herokuapp.com/blog"> live demo</a>
+          <textbody style={{color: 'white', fontFamily: 'Avenir', fontSize: 18, textAlign: 'left', marginBottom: 0}}> 
+          A CRUD timeline web application. Users can search, upload and tag images to the site which is then displayed similarly to a museum exhibit.
           </textbody>
+          
+          <div style={{display: 'flex', flexDirection: 'row'}}>
+
+          <h5 style={built}> Node.js </h5>
+          <h5 style={built}> Express </h5>
+          <h5 style={built}> MySQL </h5>
+          <h5 style={built}> Firebase </h5>
+      
+          </div>
+
+      
 
         </div>
 
     </div>
 
-    <div style={{marginTop: 10, objectFit: 'cover'}}>
+    <div style={{objectFit: 'cover', marginTop: 40}}>
     <video style={VideoStyle} loop autoPlay muted>
     <source src={this.state.videoURL} type="video/mp4" />
     Your browser does not support the video tag.
     </video>
 
-    <div>
+
+
+    </div>
+
+    <div style={{display: 'flex', flexDirection: 'row', paddingLeft: 280, paddingRight: 280}}>
+
     
-    <a href="https://github.com/tomkim825/Project2">
+    <a href="https://github.com/tomkim825/Project2" target="_blank" rel="noopener noreferrer"  >
     <img 
     src={require('../images/github.png')}
-    style={{width:75, height: 75, paddingTop: 13, paddingLeft: 310}}
+    style={{width:65, height: 65, paddingTop: 2, paddingRight: 25}}
+    alt="github"
+    />
+    </a>
+
+    <a href="https://project-2-crud-app.herokuapp.com/blog" target="_blank" rel="noopener noreferrer"  >
+    <img 
+    src={require('../images/demo.png')}
+    style={{width:70, height: 70, paddingTop: 2}}
     alt="github"
     />
     </a>
 
     </div>
 
-    </div>
+    
 
     
 
@@ -66,4 +89,14 @@ const VideoStyle = {
     width: 711,
     height: 400,
     objectFit: 'cover'
+}
+
+const built = {
+  border: 2, 
+  padding: 5,
+  borderStyle: 'solid',  
+  borderColor: "white", 
+  color: 'white', 
+  marginRight: 10
+
 }
