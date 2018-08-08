@@ -20,8 +20,8 @@ class Introduction extends Component {
 
           <div style={bubble}>
           <h1 style={{fontFamily: 'Homemade Apple, cursive', paddingTop: 10, margin: 0}}> Hey There! </h1>
-          <textbody style={{fontFamily: 'Homemade Apple, cursive', fontSize: 22, textAlign: 'center', lineSpacing: 2}}> 
-          My name is Cliff Pham. I'm a bilingual full-stack developer and I'm passionate about translating real-world experiences into code and creating applications that are both beautifully designed and helpful to users
+          <textbody style={{fontFamily: 'Homemade Apple, cursive', fontSize: 21, textAlign: 'center', lineSpacing: 2}}> 
+          My name is Cliff Pham. I'm a bilingual fullstack developer and I'm passionate about translating real-world experiences into code and creating applications that are both beautifully designed and helpful to users
           </textbody>
 
           </div>
