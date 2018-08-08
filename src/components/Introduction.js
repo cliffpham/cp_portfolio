@@ -35,12 +35,19 @@ class Introduction extends Component {
 
           
           <div style={postit}>
-          <h4> My Professional Skills Include: </h4>
+          <h4 style={{paddingLeft: 5}}> My Professional Skills Include: </h4>
           <ul>
-          <li> Web Development </li>
-          <li> Mobile Development </li>
+          <li> Javascript </li>
+          <li> React </li>
+          <li> React Native </li>
+          <li> Node.js </li>
+          <li> Express </li>
+          <li> MongoDB </li>
+          <li> MySQL </li>
           <li> Business Japanese </li>
           </ul>
+
+          
           </div>
 
  
