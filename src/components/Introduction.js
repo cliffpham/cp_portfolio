@@ -21,7 +21,7 @@ class Introduction extends Component {
           <div style={bubble}>
           <h1 style={{fontFamily: 'Homemade Apple, cursive', paddingTop: 10, margin: 0}}> Hey There! </h1>
           <textbody style={{fontFamily: 'Homemade Apple, cursive', fontSize: 22, textAlign: 'center', lineSpacing: 2}}> 
-          My name is Cliff Pham and I'm passionate about translating real-world experiences into code and creating applications that are both beautifully designed and helpful to users
+          My name is Cliff Pham. I'm a bilingual full-stack developer and I'm passionate about translating real-world experiences into code and creating applications that are both beautifully designed and helpful to users
           </textbody>
 
           </div>
@@ -35,7 +35,7 @@ class Introduction extends Component {
 
           
           <div style={postit}>
-          <h4 style={{paddingLeft: 5}}> My Professional Skills Include: </h4>
+          <h4 style={{paddingLeft: 5}}> My Technical Skills Include: </h4>
           <ul>
           <li> Javascript </li>
           <li> React </li>
