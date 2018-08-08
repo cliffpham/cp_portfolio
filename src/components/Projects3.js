@@ -12,19 +12,21 @@ class Projects3 extends Component {
   render() {
 
     return (
-      <div style={{backgroundColor: '#FFAE42', height: 700, width: 711.09, position: "absolute", top: "5%", left: "21%"}}>
+      <div style={{height: 700, width: 700, position: "relative", paddingTop: '8%', left: '55%', transform: 'translateX(-50%)'}}>
     
       <div style={{backgroundColor: '#FFAE42', display: 'flex', flexDirection: "row", width: 700}}>
 
-        <div style={{backgroundColor: '#FFAE42', width: 700, height: 150, alignContent: 'stretch', padding: 10}}>
+        <div style={{backgroundColor: '#FFAE42', width: 700, height: 700, alignContent: 'stretch', padding: 0}}>
 
-          <h1 style={{color: 'white', fontFamily: 'Overpass Mono, monospace',fontSize: 50, letterSpacing:'-3px', textAlign: 'left', margin: 0}}> GIVE A DOG A BONE </h1>
+          <h1 style={{color: 'white', fontFamily: 'Overpass Mono, monospace',fontSize: 50, letterSpacing:'-3px', textAlign: 'left', margin: 0, paddingLeft: 10}}> GIVE A DOG A BONE </h1>
       
-          <textbody style={{color: 'white', fontFamily: 'Avenir', fontSize: 18, textAlign: 'left', marginBottom: 0}}> 
-          A web application to help rescue dogs find loving homes using a similar UI as dating apps, such as Tinder.
+          <div style={{paddingLeft: 10}}>
+          <textbody style={{color: 'white', fontFamily: 'Avenir', fontSize: 18, textAlign: 'center', marginBottom: 0}}> 
+          A web application to help rescue dogs find loving homes using a similar UI as dating apps, such as Tinder. The app was built using HTML CSS JQuery Javascript Firebase AJAX Bootstrap.
           </textbody>
+          </div>
           
-          <div style={{display: 'flex', flexDirection: 'row'}}>
+          <div style={{display: 'flex', flexDirection: 'row', paddingLeft: 10}}>
 
           <h5 style={built}> jQuery </h5>
           <h5 style={built}> HTML </h5>
@@ -35,41 +37,34 @@ class Projects3 extends Component {
       
           </div>
 
+          <div style={{height: 390, width: 700, objectFit: 'cover'}}>
+
+          <video style={VideoStyle} loop autoPlay muted>
+          <source src={this.state.videoURL} type="video/mp4" />
+          Your browser does not support the video tag.
+          </video>
+
+
+          </div>
+
+          <div style={{display: 'flex', flexDirection: 'row', paddingTop: 10, margin: '0 auto', width: 70}}>
+          <a href="https://github.com/balbano80/Doggie-Tinder" target="_blank" rel="noopener noreferrer"  >
+          <img 
+          src={require('../images/github.png')}
+          style={{width:55, height: 55}}
+          alt="github"
+          />
+          </a>
+
+          </div>
+
       
 
         </div>
 
-    </div>
+      </div>
 
-    <div style={{objectFit: 'cover', marginTop: 40}}>
-    <video style={VideoStyle} loop autoPlay muted>
-    <source src={this.state.videoURL} type="video/mp4" />
-    Your browser does not support the video tag.
-    </video>
-
-
-
-    </div>
-
-    <div style={{display: 'flex', flexDirection: 'row', paddingLeft: 310, paddingRight: 310}}>
-
-    
-    <a href="https://github.com/balbano80/Doggie-Tinder" target="_blank" rel="noopener noreferrer"  >
-    <img 
-    src={require('../images/github.png')}
-    style={{width:65, height: 65, paddingTop: 2, paddingRight: 25}}
-    alt="github"
-    />
-    </a>
-
-    </div>
-
-    
-
-    
-
-        
-    
+  
     </div>    
     );
     
@@ -80,8 +75,8 @@ class Projects3 extends Component {
 export default Projects3
 
 const VideoStyle = {
-    width: 711,
-    height: 400,
+    width: 700,
+    height: 390,
     objectFit: 'cover'
 }
 
@@ -102,3 +97,4 @@ const built = {
 // https://github.com/balbano80/Doggie-Tinder
 
 // A web application to help rescue dogs find loving homes using a similar UI as dating apps, such as Tinder. The app was built using HTML CSS JQuery Javascript Firebase AJAX Bootstrap.
+

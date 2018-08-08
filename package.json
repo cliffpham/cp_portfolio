@@ -2,7 +2,7 @@
   "name": "c_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://cliffpham.github.io/cp_portfolio/",
+  "homepage": "https://cliffpham.github.io/cp_portfolio/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "prop-types": "^15.6.2",
@@ -13,13 +13,16 @@
     "react-flip-page": "^1.0.0",
     "react-parallax": "^1.8.0",
     "react-responsive": "^5.0.0",
+    "react-responsive-carousel": "^3.1.41",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
-    "react-scrolllock": "^3.0.1"
+    "react-scrolllock": "^3.0.1",
+    "react-slick": "^0.23.1",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

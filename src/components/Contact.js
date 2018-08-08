@@ -58,10 +58,13 @@ const styles = {
   wrapper: {
     height: 700, 
     width: 700, 
-    position: "fixed", 
-    top: "7.5%", 
-    left: "25%"
-  },
+    position: 'absolute',
+    top:0,
+    left:0,
+    right:0,
+    bottom:0,
+    margin: 'auto'
+   } ,
   main: {
     margin: 'auto', 
     display: 'flex', 

@@ -14,7 +14,7 @@ class Projects extends Component {
   render() {
 
     return (
-    <div style={{height: 700, width: 700, position: "absolute", top: "5%", left: "21%"}}>
+    <div style={{height: 700, width: 700, position: "relative", paddingTop: '8%', left: '55%', transform: 'translateX(-50%)'}}>
     
       <div style={{backgroundColor: 'white', margin: 'auto', display: 'flex', flexDirection: "row", height: 400}}>
 
@@ -86,5 +86,4 @@ const built = {
     marginRight: 10
 
 }
-
 
