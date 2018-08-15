@@ -8,13 +8,13 @@ class Projects extends Component {
         super(props);
 
         this.state = {
-            videoURL: 'https://res.cloudinary.com/djenpulgm/video/upload/v1531991693/PortVid.mp4'
+            videoURL: 'https://res.cloudinary.com/djenpulgm/video/upload/v1534369150/MeishiDemo.mp4'
         }
     }
   render() {
 
     return (
-    <div style={{height: 700, width: 700, position: "relative", paddingTop: '8%', left: '55%', transform: 'translateX(-50%)'}}>
+    <div style={{height: 700, width: 700, position: "relative", paddingTop: '3%', left: '55%', transform: 'translateX(-50%)'}}>
     
       <div style={{backgroundColor: 'white', margin: 'auto', display: 'flex', flexDirection: "row", height: 400}}>
 

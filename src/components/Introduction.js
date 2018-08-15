@@ -8,7 +8,7 @@ class Introduction extends Component {
   render() {
     return (
 
-      <div style={{height: 700, width: 700, position: "relative", paddingTop: '8%', left: '55%', transform: 'translateX(-50%)'}}>
+      <div style={{height: 700, width: 700, position: "relative", paddingTop: '3%', left: '55%', transform: 'translateX(-50%)'}}>
     
       <div style={{backgroundColor: '#F3F5F9', display: 'flex', flexDirection: "row", width: 700}}>
 

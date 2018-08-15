@@ -22,7 +22,7 @@ const style = {
   height: 700,
   position: 'relative',
   width: 700,
-  paddingTop: '10%', 
+  paddingTop: '3%', 
   left: '55%', 
   transform: 'translateX(-50%)'
 }
