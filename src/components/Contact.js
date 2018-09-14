@@ -62,10 +62,11 @@ const styles = {
   wrapper: {
     height: 700,
     width: 700,
-    position: "relative",
-    paddingTop: "7%",
-    left: "45%",
-    transform: "translateX(-50%)"
+    position: "fixed",
+    top: "48%",
+    left: "48%",
+    marginTop: "-350px",
+    marginLeft: "-350px"
   },
   main: {
     margin: "auto",
