@@ -21,7 +21,7 @@ export default class ProjectCarousel extends React.Component {
           width: 800,
           position: "fixed",
           top: "45%",
-          left: "46%",
+          left: "46.5%",
           marginTop: "-350px",
           marginLeft: "-400px"
         }}

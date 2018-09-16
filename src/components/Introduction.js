@@ -31,6 +31,17 @@ class Introduction extends Component {
               padding: 0
             }}
           >
+            <img
+              src={require("../images/profile.jpg")}
+              alt="profile"
+              style={{
+                height: 300,
+                position: "absolute",
+                right: 20,
+                top: 35,
+                borderRadius: "50%"
+              }}
+            />
             <div style={bubble}>
               <h1
                 style={{
@@ -85,7 +96,7 @@ const bubble = {
   bottom: 410,
   // backgroundImage: `url(${Background})`,
   borderRadius: ".4em",
-  width: 650,
+  width: 390,
   height: 280,
   paddingLeft: 15
 };
