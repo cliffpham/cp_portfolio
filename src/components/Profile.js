@@ -33,7 +33,7 @@ export default class Profile extends React.Component {
           <ButtonNext
             style={{
               position: "fixed",
-              top: 400,
+              top: "40%",
               right: "3%",
               borderWidth: 0,
               backgroundColor: "#FFF",
@@ -50,7 +50,7 @@ export default class Profile extends React.Component {
           <ButtonBack
             style={{
               position: "fixed",
-              top: 400,
+              top: "40%",
               left: "2%",
               borderWidth: 0,
               backgroundColor: "#FFF",
