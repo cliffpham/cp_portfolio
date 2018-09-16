@@ -34,8 +34,8 @@ export default class ProjectCarousel extends React.Component {
           <ButtonNext
             style={{
               position: "fixed",
-              top: 400,
-              right: "3%",
+              top: "39.95%",
+              right: "2.5%",
               borderWidth: 0,
               backgroundColor: "#FFF",
               outline: "none"
@@ -51,7 +51,7 @@ export default class ProjectCarousel extends React.Component {
           <ButtonBack
             style={{
               position: "fixed",
-              top: 400,
+              top: "40%",
               left: "2%",
               borderWidth: 0,
               backgroundColor: "#FFF",
