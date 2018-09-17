@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Background from "../images/notebook.jpg";
 
 class Introduction extends Component {
   render() {
@@ -16,49 +15,43 @@ class Introduction extends Component {
       >
         <div
           style={{
-            backgroundColor: "#F3F5F9",
+            backgroundColor: "black",
+            margin: "auto",
             display: "flex",
-            flexDirection: "row",
-            width: 700
+            height: 700
           }}
         >
           <div
             style={{
-              backgroundColor: "#abcae3",
-              width: 700,
-              height: 700,
-              alignContent: "stretch",
-              padding: 0
+              backgroundColor: "#4BA9A1",
+              width: 280,
+              height: 700
             }}
           >
             <img
               src={require("../images/profile.jpg")}
               alt="profile"
               style={{
-                height: 300,
-                position: "absolute",
-                right: 20,
-                top: 35,
-                borderRadius: "50%"
+                height: 200,
+                borderRadius: "50%",
+                paddingTop: 10,
+                paddingLeft: 25
               }}
             />
+
             <div style={bubble}>
               <h1
                 style={{
                   fontFamily: "Homemade Apple, cursive",
-                  paddingTop: 10,
                   margin: 0
                 }}
               >
-                {" "}
-                Hey There!{" "}
+                Hey There!
               </h1>
               <textbody
                 style={{
                   fontFamily: "Homemade Apple, cursive",
-                  fontSize: 21,
-                  textAlign: "center",
-                  lineSpacing: 2
+                  fontSize: 17
                 }}
               >
                 My name is Cliff Pham. I'm a bilingual fullstack developer and
@@ -66,6 +59,66 @@ class Introduction extends Component {
                 code and creating applications that are both beautifully
                 designed and helpful to users
               </textbody>
+            </div>
+          </div>
+
+          <div
+            style={{
+              backgroundColor: "#1C252E",
+              width: 420,
+              height: 700,
+              textAlign: "center"
+            }}
+          >
+            <h1
+              style={{
+                color: "white",
+                fontFamily: "Overpass Mono, monospace",
+                fontSize: 50,
+                letterSpacing: "-3px",
+                textAlign: "center",
+                paddingTop: 10,
+                paddingBottom: 15,
+                margin: 0
+              }}
+            >
+              QUICK FACTS
+            </h1>
+
+            <div>
+              <img
+                src={require("../images/creative.png")}
+                alt="profile"
+                style={{
+                  height: 130
+                }}
+              />
+              <h3 style={{ color: "#FFF", margin: 0 }}> Creative Thinker </h3>
+            </div>
+
+            <div>
+              <img
+                src={require("../images/aesthetic.png")}
+                alt="profile"
+                style={{
+                  height: 150
+                }}
+              />
+              <h3 style={{ color: "#FFF", margin: 0 }}> Detail Oriented </h3>
+            </div>
+
+            <div style={{ paddingTop: 10 }}>
+              <img
+                src={require("../images/communicate.png")}
+                alt="profile"
+                style={{
+                  height: 150
+                }}
+              />
+              <h3 style={{ color: "#FFF", margin: 0 }}>
+                {" "}
+                Effective Communicator{" "}
+              </h3>
             </div>
           </div>
         </div>
@@ -91,23 +144,10 @@ export default Introduction;
 // </div>
 
 const bubble = {
-  position: "absolute",
-  left: "2%",
-  bottom: 410,
   // backgroundImage: `url(${Background})`,
-  borderRadius: ".4em",
-  width: 390,
-  height: 280,
-  paddingLeft: 15
-};
-
-const postit = {
-  position: "absolute",
-  right: "8%",
-  bottom: "18%",
-  backgroundColor: "#FE4E8E",
-  width: 250,
-  height: 250
+  width: 240,
+  height: 300,
+  paddingLeft: 20
 };
 
 // <img
@@ -130,4 +170,25 @@ const postit = {
 // <li> Business Japanese </li>
 // </ul>
 
+// </div>
+
+// <div
+// style={{
+//   backgroundColor: "#F3F5F9",
+//   display: "flex",
+//   flexDirection: "row",
+//   width: 700
+// }}
+// >
+// <div
+//   style={{
+//     backgroundColor: "#abcae3",
+//     width: 700,
+//     height: 700,
+//     alignContent: "stretch",
+//     padding: 0
+//   }}
+// >
+
+// </div>
 // </div>
