@@ -28,16 +28,16 @@ class Introduction extends Component {
               height: 700
             }}
           >
-            <img
-              src={require("../images/profile.jpg")}
-              alt="profile"
-              style={{
-                height: 200,
-                borderRadius: "50%",
-                paddingTop: 10,
-                paddingLeft: 25
-              }}
-            />
+            <div style={{ paddingLeft: "15%", paddingTop: "7%" }}>
+              <img
+                src={require("../images/profile.jpg")}
+                alt="profile"
+                style={{
+                  borderRadius: "50%",
+                  height: 200
+                }}
+              />
+            </div>
 
             <div style={bubble}>
               <h1
